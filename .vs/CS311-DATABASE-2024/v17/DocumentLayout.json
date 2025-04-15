@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4837612F-E0A7-4131-84AF-EF9FE54F62AB}|CS311-DATABASE-2024\\CS311-DATABASE-2024.csproj|C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\cs311-database-2024\\frmcases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4837612F-E0A7-4131-84AF-EF9FE54F62AB}|CS311-DATABASE-2024\\CS311-DATABASE-2024.csproj|solutionrelative:cs311-database-2024\\frmcases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4837612F-E0A7-4131-84AF-EF9FE54F62AB}|CS311-DATABASE-2024\\CS311-DATABASE-2024.csproj|C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\cs311-database-2024\\frmupdatecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4837612F-E0A7-4131-84AF-EF9FE54F62AB}|CS311-DATABASE-2024\\CS311-DATABASE-2024.csproj|solutionrelative:cs311-database-2024\\frmupdatecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4837612F-E0A7-4131-84AF-EF9FE54F62AB}|CS311-DATABASE-2024\\CS311-DATABASE-2024.csproj|c:\\users\\jonat\\source\\repos\\cs311-database-2024\\cs311-database-2024\\frmnewcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4837612F-E0A7-4131-84AF-EF9FE54F62AB}|CS311-DATABASE-2024\\CS311-DATABASE-2024.csproj|solutionrelative:cs311-database-2024\\frmnewcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4837612F-E0A7-4131-84AF-EF9FE54F62AB}|CS311-DATABASE-2024\\CS311-DATABASE-2024.csproj|c:\\users\\jonat\\source\\repos\\cs311-database-2024\\cs311-database-2024\\frmnewcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4837612F-E0A7-4131-84AF-EF9FE54F62AB}|CS311-DATABASE-2024\\CS311-DATABASE-2024.csproj|solutionrelative:cs311-database-2024\\frmnewcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4837612F-E0A7-4131-84AF-EF9FE54F62AB}|CS311-DATABASE-2024\\CS311-DATABASE-2024.csproj|C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\cs311-database-2024\\frmcases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4837612F-E0A7-4131-84AF-EF9FE54F62AB}|CS311-DATABASE-2024\\CS311-DATABASE-2024.csproj|solutionrelative:cs311-database-2024\\frmcases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmNewcase.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\CS311-DATABASE-2024\\frmNewcase.cs",
+              "RelativeDocumentMoniker": "CS311-DATABASE-2024\\frmNewcase.cs",
+              "ToolTip": "C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\CS311-DATABASE-2024\\frmNewcase.cs [Design]",
+              "RelativeToolTip": "CS311-DATABASE-2024\\frmNewcase.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:09:55.578Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmCases.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\CS311-DATABASE-2024\\frmCases.cs",
+              "RelativeDocumentMoniker": "CS311-DATABASE-2024\\frmCases.cs",
+              "ToolTip": "C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\CS311-DATABASE-2024\\frmCases.cs [Design]",
+              "RelativeToolTip": "CS311-DATABASE-2024\\frmCases.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:35:16.761Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmUpdatecase.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\CS311-DATABASE-2024\\frmUpdatecase.cs",
+              "RelativeDocumentMoniker": "CS311-DATABASE-2024\\frmUpdatecase.cs",
+              "ToolTip": "C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\CS311-DATABASE-2024\\frmUpdatecase.cs",
+              "RelativeToolTip": "CS311-DATABASE-2024\\frmUpdatecase.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAADwv0IAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:03:31.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmNewcase.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\CS311-DATABASE-2024\\frmNewcase.cs",
+              "RelativeDocumentMoniker": "CS311-DATABASE-2024\\frmNewcase.cs",
+              "ToolTip": "C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\CS311-DATABASE-2024\\frmNewcase.cs",
+              "RelativeToolTip": "CS311-DATABASE-2024\\frmNewcase.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAcwEYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T09:49:29.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmCases.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\CS311-DATABASE-2024\\frmCases.cs",
+              "RelativeDocumentMoniker": "CS311-DATABASE-2024\\frmCases.cs",
+              "ToolTip": "C:\\Users\\jonat\\source\\repos\\CS311-DATABASE-2024\\CS311-DATABASE-2024\\frmCases.cs",
+              "RelativeToolTip": "CS311-DATABASE-2024\\frmCases.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAA8wHoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T12:07:28.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

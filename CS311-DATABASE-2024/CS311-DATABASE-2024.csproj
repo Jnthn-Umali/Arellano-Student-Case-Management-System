@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4837612F-E0A7-4131-84AF-EF9FE54F62AB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CS311_DATABASE_2024</RootNamespace>
+    <AssemblyName>CS311-DATABASE-2024</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\OneDrive\Documents\CS311 library\CS311 library\MySql.Data.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="frmAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAccounts.Designer.cs">
+      <DependentUpon>frmAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCases.Designer.cs">
+      <DependentUpon>frmCases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCourses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCourses.Designer.cs">
+      <DependentUpon>frmCourses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.cs">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewaccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewaccount.Designer.cs">
+      <DependentUpon>frmNewaccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewcase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewcase.Designer.cs">
+      <DependentUpon>frmNewcase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewcourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewcourse.Designer.cs">
+      <DependentUpon>frmNewcourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewstrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewstrand.Designer.cs">
+      <DependentUpon>frmNewstrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewstudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewstudent.Designer.cs">
+      <DependentUpon>frmNewstudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewviolation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewviolation.Designer.cs">
+      <DependentUpon>frmNewviolation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStrands.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStrands.Designer.cs">
+      <DependentUpon>frmStrands.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudents.Designer.cs">
+      <DependentUpon>frmStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateaccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateaccount.Designer.cs">
+      <DependentUpon>frmUpdateaccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdatecase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdatecase.Designer.cs">
+      <DependentUpon>frmUpdatecase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdatecourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdatecourse.Designer.cs">
+      <DependentUpon>frmUpdatecourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdatestrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdatestrand.Designer.cs">
+      <DependentUpon>frmUpdatestrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdatestudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdatestudent.Designer.cs">
+      <DependentUpon>frmUpdatestudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateviolation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateviolation.Designer.cs">
+      <DependentUpon>frmUpdateviolation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViolations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViolations.Designer.cs">
+      <DependentUpon>frmViolations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAccounts.resx">
+      <DependentUpon>frmAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCases.resx">
+      <DependentUpon>frmCases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCourses.resx">
+      <DependentUpon>frmCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewaccount.resx">
+      <DependentUpon>frmNewaccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewcase.resx">
+      <DependentUpon>frmNewcase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewcourse.resx">
+      <DependentUpon>frmNewcourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewstrand.resx">
+      <DependentUpon>frmNewstrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewstudent.resx">
+      <DependentUpon>frmNewstudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewviolation.resx">
+      <DependentUpon>frmNewviolation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStrands.resx">
+      <DependentUpon>frmStrands.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudents.resx">
+      <DependentUpon>frmStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateaccount.resx">
+      <DependentUpon>frmUpdateaccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdatecase.resx">
+      <DependentUpon>frmUpdatecase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdatecourse.resx">
+      <DependentUpon>frmUpdatecourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdatestrand.resx">
+      <DependentUpon>frmUpdatestrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdatestudent.resx">
+      <DependentUpon>frmUpdatestudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateviolation.resx">
+      <DependentUpon>frmUpdateviolation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViolations.resx">
+      <DependentUpon>frmViolations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frmmain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frmlogin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frmaccounts.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aulogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\au1logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addicon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\au.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aur1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viol.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
